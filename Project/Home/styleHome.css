@@ -147,7 +147,7 @@ li a:hover {
 .active {
     color: #4d2545;
 }
-@media screen and (max-width:390px) {
+@media screen and (min-width:390px) {
     .pone {       
         
         display: none;
