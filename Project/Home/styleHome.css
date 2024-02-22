@@ -171,3 +171,25 @@ li a:hover {
     }
 
 }
+@media only screen and (max-width:430px) {
+    .pone {       
+        
+        display: none;
+        
+        
+        
+    }
+    .poneAndsr {
+        width: 100%;   
+        height: auto;
+        
+    }
+    .sr {     
+        font-size: 15px;
+        width: 100%;
+        margin-left: 20px;
+        
+    
+        
+    }
+}
