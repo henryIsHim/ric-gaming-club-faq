@@ -147,3 +147,28 @@ li a:hover {
 .active {
     color: #4d2545;
 }
+@media screen and (min-width:390px) {
+    .pone {       
+        
+        display: none;
+        
+        
+        
+    }
+    .poneAndsr {
+        width: 100%;   
+        height: auto;
+        
+    }
+    .sr {     
+        font-size: 15px;
+        width: 100%;
+        margin-left: 20px;
+        
+    
+        
+    }
+
+
+
+}
