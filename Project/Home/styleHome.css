@@ -1,0 +1,149 @@
+@media screen and (min-width: 600px) {
+    div.example {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #002142, #461437);
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fd1d1d;
+    background: #455c74;
+    box-shadow: inset;
+    box-shadow: -6px -15px 15px -3px rgba(0, 128, 255, 0.164);
+    height: auto;
+}
+
+.title {
+    color: white;
+}
+
+li {
+    float: right;
+}
+
+
+
+.RSUlogo {
+    width : 35px ;
+    height :35px;
+    opacity: 1;
+    float: left;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+
+
+}
+
+.RSU {
+    float: left;
+    color: white;
+    font-style: inherit;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #4d2545;
+}
+
+.poneAndsr {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.pone {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.pone img {
+    width: 100%;
+    height: 500px;
+
+}
+
+.sr {
+    width: 50%;
+    size: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    color: white;
+}
+
+.Explore {
+    background-color: #800000;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: double;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 800px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.Explore :hover {
+    background-color: rgb(19, 220, 227);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    background-image: linear-gradient(to bottom,#61204d, #581945);
+}
+
+
+
+.foterImg {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footerword{
+    color: white;
+}
+.active {
+    color: #4d2545;
+}

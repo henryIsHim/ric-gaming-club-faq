@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GPT Q&A</title>
+
+    <style>
+        @media screen and (min-width: 600px) {
+            div.example {
+                font-size: 80px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            div.example {
+                font-size: 30px;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0px;
+            background-image: linear-gradient(to bottom, #002142, #461437);
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #fd1d1d;
+            background: #455c74;
+            box-shadow: inset;
+            box-shadow: -6px -15px 15px -3px rgba(0, 128, 255, 0.164);
+            height: auto;
+        }
+
+        .RSUlogo {
+            width: 35px;
+            height: 35px;
+            opacity: 1;
+            float: left;
+            display: flex;
+            text-align: center;
+            margin-top: 15px;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .RSU {
+            float: left;
+            color: white;
+            font-style: inherit;
+            font-size: larger;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: #4d2545;
+        }
+
+        #emo:hover {
+            background-color: #dcd800;
+        }
+
+        .container {
+            width: 480px;
+            height: 365px;
+            border-radius: 20px;
+            background-color: #cccccc;
+            margin-left: 510px;
+            margin-top: 35px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            gap: 55px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -10px;
+            margin-left: -50px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 85px;
+            margin-top: -5px;
+            margin-left: 55px;
+        }
+
+        #survey {
+            margin-left: 630px;
+            border-radius: 20px;
+            background-color: #cccccc;
+            padding: 20px;
+        }
+
+        #emojirate {
+            background: #cccccc;
+            border-radius: 20px;
+            width: 480px;
+            margin-left: 510px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 120px;
+        }
+
+        #emo:focus {
+            color: yellow;
+        }
+
+        #emojis {
+            display: flex;
+            gap: 20px;
+        }
+
+        #foot {
+            text-align: center;
+            background-image: linear-gradient(to bottom, #61204d, #581945);
+        }
+
+        .contain {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            width: 90px;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+
+        .radio {
+            display: none;
+        }
+
+        .radio~span {
+            font-size: 3rem;
+            filter: grayscale(100);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .radio:checked~span {
+            filter: grayscale(0);
+            font-size: 4rem;
+        }
+
+        .active {
+            color: #4d2545;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#">Feedback</a></li>
+        <li><a href="../Ask a question/ask questions.html">Ask A Question</a></li>
+        <li><a href="../FAQ List/FAQ List.html">FAQ List</a></li>
+        <li><a href="../Home/home.html">Home</a></li>
+
+
+        <li class="RSUlogo"><img src="./image/RSU.png" alt="Logo"></li>
+        <li class="RSU"><b><a href="./home.html">RIC Gaming Club</a></b></li>
+    </ul>
+
+    <br>
+
+    <center>
+        <h3 style="color: white;">If you need further more information, or want to join the club, contact our club
+            president below!</h3>
+    </center>
+
+    <div class="container">
+        <div class="logo">
+            <img src="./image/fb.png" class="FB" height="50px" width="50px">
+            <img src="./image/line.png" class="Line" height="55px" width="55px">
+            <img src="./image/gmail.png" class="Gmail" height="52px" width="52px">
+        </div>
+
+        <div class="links">
+            <a href="https://www.facebook.com/profile.php?id=100014915112605&mibextid=LQQJ4d" style="color: darkblue;">
+                Thukha Minthwin </a>
+            <a href="https://line.me/ti/p/aq6ANcv3au" style="color: darkblue;"> Thukha Minthwin</a>
+            <a href="np.thukhaminthwin@gmail.com" style="color: darkblue;"> np.thukhaminthwin@gmail.com</a>
+
+
+        </div>
+    </div><br>
+
+
+
+
+    <div class="contain">
+        <div class="item">
+            <label for="0">
+                <input class="radio" type="radio" name="feedback" id="0" value="0">
+                <span>🤬</span></label>
+        </div>
+
+        <div class="item">
+            <label for="1">
+                <input class="radio" type="radio" name="feedback" id="1" value="1">
+                <span>🙁</span>
+            </label>
+        </div>
+
+        <div class="item">
+            <label for="2">
+                <input class="radio" type="radio" name="feedback" id="2" value="2">
+                <span>😶</span>
+            </label>
+        </div>
+
+        <div class="item">
+            <label for="3">
+                <input class="radio" type="radio" name="feedback" id="3" value="3">
+                <span>😁</span>
+            </label>
+        </div>
+
+        <div class="item">
+            <label for="4">
+                <input class="radio" type="radio" name="feedback" id="4" value="4">
+                <span>😍</span>
+            </label>
+        </div>
+
+    </div>
+    </div><br><br>
+
+    <a href="https://forms.gle/iuZ9A6DcJf68WNaU6" id="survey">
+        Click here for survey about us </a>
+
+</body><br><br><br><br>
+
+<footer id="foot"> <br>
+    <h3 style="color: rgb(196, 196, 196);">@Copyright.All rights reserved</h3> <br>
+</footer>
+
+</html>
