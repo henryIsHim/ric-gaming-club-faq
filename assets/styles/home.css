@@ -1,0 +1,347 @@
+@media screen and (min-width: 600px) {
+    div.example {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+}
+
+* {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #002142, #461437);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fd1d1d;
+    background: #455c74;
+    box-shadow: inset;
+    box-shadow: -6px -15px 15px -3px rgba(0, 128, 255, 0.164);
+    height: auto;
+}
+
+.title {
+    color: white;
+}
+
+li {
+    float: right;
+}
+
+
+
+.RSUlogo {
+    width : 35px ;
+    height :35px;
+    opacity: 1;
+    float: left;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+
+
+}
+
+.RSU {
+    float: left;
+    color: white;
+    font-style: inherit;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+li a:hover {
+    color: #4d2545;
+}
+
+.poneAndsr {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.pone {
+    margin-top: 30px;
+    width: 60%;
+    display: block;
+}
+
+.pone img {
+    width: 100%;
+    height: 500px;
+
+}
+
+.sr {
+    width: 50%;
+    size: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+.Explore {
+    background-color: #800000;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: double;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 4px 800px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.Explore :hover {
+    background-color: rgb(19, 220, 227);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0 8px 0;
+    background: transparent;
+    border-top: 1px solid rgba(255,255,255,0.18);
+    margin-top: 48px;
+}
+
+.foterImg {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footerword {
+    color: #e0e0e0;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.footer a img {
+    width: 32px;
+    height: 32px;
+    filter: grayscale(40%) brightness(0.95);
+    transition: filter 0.2s, transform 0.2s;
+    border-radius: 8px;
+}
+
+.footer a:hover img {
+    filter: grayscale(0%) brightness(1.1) drop-shadow(0 2px 8px #4d2545);
+    transform: translateY(-2px) scale(1.08);
+}
+
+.active {
+    color: #4d2545;
+}
+@media screen and (max-width:600px) {
+    .pone {       
+        
+        display: none;
+        
+        
+        
+    }
+    .poneAndsr {
+        width: 100%;   
+        height: auto;
+        
+    }
+    .sr {     
+        font-size: 15px;
+        width: 100%;
+        margin-left: 20px;
+        
+    
+        
+    }
+    .Explore {
+        background-color: #800000;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: double;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 150px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+
+}
+@media screen and (min-width:762px) {
+    .pone {       
+        
+        display: none;
+        
+        
+        
+    }
+    .poneAndsr {
+        width: 100%;   
+        height: auto;
+        
+    }
+    .sr {     
+        font-size: 15px;
+        width: 100%;
+        margin-left: 20px;
+        
+    
+        
+    }
+    .Explore {
+        background-color: #800000;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: double;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 150px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+
+}
+@media screen and (min-width:1000px) {
+    .pone {
+        margin-top: 30px;
+        width: 60%;
+        display: block;
+    
+        
+    }
+    .poneAndsr {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 50px;
+    }
+    .sr {
+        width: 50%;
+        size: 50px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 32px;
+        color: white;
+    }
+    .Explore {
+        background-color: #800000;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: double;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 700px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+
+}
+.footer-modern {
+  width: 100%;
+  background: #181c24;
+  color: #e0e0e0;
+  padding: 32px 0 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  margin-top: 48px;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 8px;
+}
+
+.footer-social a img {
+  width: 32px;
+  height: 32px;
+  filter: grayscale(40%) brightness(0.95);
+  transition: filter 0.2s, transform 0.2s;
+  border-radius: 8px;
+}
+
+.footer-social a:hover img {
+  filter: grayscale(0%) brightness(1.1) drop-shadow(0 2px 8px #4d2545);
+  transform: translateY(-2px) scale(1.08);
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #bdbdbd;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    gap: 12px;
+  }
+  .footer-social {
+    gap: 18px;
+  }
+  .footer-text {
+    font-size: 0.95rem;
+  }
+}

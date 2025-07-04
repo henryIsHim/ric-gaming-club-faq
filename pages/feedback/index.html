@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - RIC Gaming Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/styles/global.css">
+    <link rel="stylesheet" href="../../assets/styles/navbar.css">
+    <link rel="stylesheet" href="../../assets/styles/feedback.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../home/index.html" class="navbar-brand">
+                <img src="../../assets/images/logos/RSU_Logo-removebg-preview.png" alt="RIC Logo" class="navbar-logo">
+                <span class="navbar-title">RIC Gaming Club</span>
+            </a>
+
+            <div class="navbar-center">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="../home/index.html" class="navbar-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="../ask-question/index.html" class="navbar-link">Ask A Question</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="../faq/index.html" class="navbar-link">FAQ</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="../feedback/index.html" class="navbar-link active">Feedback</a>
+                    </li>
+                </ul>
+
+                <a href="../ask-question/index.html" class="navbar-cta-button">
+                    Start Chat
+                </a>
+            </div>
+
+            <button class="navbar-toggle" id="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Feedback Header -->
+    <div class="feedback-header">
+        <h1>Get in Touch</h1>
+        <p class="subtitle">
+            Connect with our club president for more information or to join our gaming community. We'd love to hear your feedback and suggestions!
+        </p>
+    </div>
+
+    <!-- Feedback Container -->
+    <div class="feedback-container">
+        
+        <!-- Contact Information Card -->
+        <div class="contact-card">
+            <h2>Contact Our President</h2>
+            <p class="description">
+                Need more information about the club or want to join our gaming community? Reach out to our club president through any of these platforms.
+            </p>
+            
+            <div class="contact-methods">
+                <a href="https://www.facebook.com/profile.php?id=100014915112605&mibextid=LQQJ4d" class="contact-item">
+                    <div class="contact-icon">FB</div>
+                    <div class="contact-info">
+                        <div class="contact-platform">Facebook</div>
+                        <div class="contact-username">Thukha Minthwin</div>
+                    </div>
+                </a>
+                
+                <a href="https://line.me/ti/p/aq6ANcv3au" class="contact-item">
+                    <div class="contact-icon">LINE</div>
+                    <div class="contact-info">
+                        <div class="contact-platform">Line Messenger</div>
+                        <div class="contact-username">Thukha Minthwin</div>
+                    </div>
+                </a>
+                
+                <a href="mailto:np.thukhaminthwin@gmail.com" class="contact-item">
+                    <div class="contact-icon">@</div>
+                    <div class="contact-info">
+                        <div class="contact-platform">Email</div>
+                        <div class="contact-username">np.thukhaminthwin@gmail.com</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Feedback Rating Card -->
+        <div class="rating-card">
+            <h2>Rate Your Experience</h2>
+            <p class="description">
+                How was your experience with our gaming club? Your feedback helps us improve and create better gaming experiences for everyone.
+            </p>
+            
+            <div class="rating-options">
+                <div class="rating-item">
+                    <input type="radio" name="experience-rating" id="rating-1" value="1" class="rating-input">
+                    <label for="rating-1" class="rating-label">
+                        <div class="rating-circle">1</div>
+                        <span class="rating-text">Poor</span>
+                    </label>
+                </div>
+                
+                <div class="rating-item">
+                    <input type="radio" name="experience-rating" id="rating-2" value="2" class="rating-input">
+                    <label for="rating-2" class="rating-label">
+                        <div class="rating-circle">2</div>
+                        <span class="rating-text">Fair</span>
+                    </label>
+                </div>
+                
+                <div class="rating-item">
+                    <input type="radio" name="experience-rating" id="rating-3" value="3" class="rating-input">
+                    <label for="rating-3" class="rating-label">
+                        <div class="rating-circle">3</div>
+                        <span class="rating-text">Good</span>
+                    </label>
+                </div>
+                
+                <div class="rating-item">
+                    <input type="radio" name="experience-rating" id="rating-4" value="4" class="rating-input">
+                    <label for="rating-4" class="rating-label">
+                        <div class="rating-circle">4</div>
+                        <span class="rating-text">Great</span>
+                    </label>
+                </div>
+                
+                <div class="rating-item">
+                    <input type="radio" name="experience-rating" id="rating-5" value="5" class="rating-input">
+                    <label for="rating-5" class="rating-label">
+                        <div class="rating-circle">5</div>
+                        <span class="rating-text">Excellent</span>
+                    </label>
+                </div>
+            </div>
+            
+            <a href="https://forms.gle/iuZ9A6DcJf68WNaU6" class="survey-button">
+                Complete Detailed Survey
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-text">@Copyright. All rights reserved.</div>
+    </div>
+
+    <script>
+        // Rating functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const ratingInputs = document.querySelectorAll('.rating-input');
+            
+            ratingInputs.forEach(input => {
+                input.addEventListener('change', function() {
+                    const rating = this.value;
+                    console.log('User rated:', rating);
+                    
+                    // You can add additional functionality here
+                    // such as sending the rating to a server
+                });
+            });
+        });
+    </script>
+
+    <script src="../../assets/scripts/navbar.js"></script>
+
+</body>
+</html>
