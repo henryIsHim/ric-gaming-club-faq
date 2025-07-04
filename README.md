@@ -1,36 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RIC Gaming</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            font-weight: 400;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 24px;
-            font-weight: 600;
-            letter-spacing: -0.02em;
-        }
-        a {
-            color: #007AFF;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <h1> <a href="Project/Home/home.html"> Click here to go to our website</a> </h1>
-    
-</body>
-</html>
+# RIC Gaming Club FAQ Web Project
+
+Welcome to the RIC Gaming Club FAQ website! This project is a modern, responsive web application for club information, FAQs, feedback, and chat support.
+
+## Project Structure
+
+```
+ric-gaming-club-faq/
+├── index.html                # Redirects to the home page
+├── README.md                 # Project documentation (this file)
+├── assets/
+│   ├── images/               # All images (logos, backgrounds, emoji, social)
+│   ├── scripts/              # JavaScript files (chat, navbar, etc.)
+│   └── styles/               # CSS files (global, navbar, home, chat, etc.)
+├── config/
+│   └── config.js             # Configuration files
+├── data/
+│   └── question_answers.xlsx # FAQ data source
+└── pages/
+    ├── ask-question/
+    │   └── index.html        # Ask a Question page
+    ├── faq/
+    │   └── index.html        # FAQ List page
+    ├── feedback/
+    │   └── index.html        # Feedback page
+    └── home/
+        └── index.html        # Home page (main landing)
+```
+
+## How to Run
+
+1. Open `index.html` in your browser. You will be redirected to the home page automatically.
+2. Navigate through the site using the navbar to access FAQs, ask questions, or leave feedback.
+
+## Features
+- Modern, responsive design
+- FAQ section with categories
+- Feedback and chat support
+- Consistent navigation and footer across all pages
+
+## Main Pages
+- **Home:** `pages/home/index.html`
+- **Ask a Question:** `pages/ask-question/index.html`
+- **FAQ:** `pages/faq/index.html`
+- **Feedback:** `pages/feedback/index.html`
+
+## Credits
+- Developed by RIC Gaming Club
+- Icons and images from club resources
+
+---
+For any issues or suggestions, please contact the club president via the links in the site footer.
