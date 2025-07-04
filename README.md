@@ -2,6 +2,10 @@
 
 Welcome to the RIC Gaming Club FAQ website! This project is a modern, responsive web application for club information, FAQs, feedback, and chat support.
 
+## Live Demo
+
+[![View the RIC Gaming Club FAQ Website](https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue?style=for-the-badge&logo=vercel)](https://ric-gaming-club-faq.vercel.app/pages/home/index.html)
+
 ## Project Structure
 
 ```
