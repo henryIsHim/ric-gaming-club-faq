@@ -2,8 +2,7 @@
 const CONFIG = {
   // API Configuration
   API: {
-    GOOGLE_AI_KEY: 'AIzaSyAXh3IXSHSPcFTklnwwmPkwfkTq4F00Su8', // Move to .env in production
-    MODEL_NAME: 'gemini-1.5-flash'
+    GOOGLE_AI_KEY: 'AIzaSyAXh3IXSHSPcFTklnwwmPkwfkTq4F00Su8',
   },
   
   // App Settings

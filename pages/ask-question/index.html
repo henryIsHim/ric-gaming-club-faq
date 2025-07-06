@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../assets/styles/global.css">
     <link rel="stylesheet" href="../../assets/styles/navbar.css">
     <link rel="stylesheet" href="../../assets/styles/chat.css">
+    <script src="../../config/config.js"></script>
 </head>
 
 <body>
@@ -122,16 +123,13 @@
     <script type="module">
         import { GoogleGenerativeAI } from "@google/generative-ai";
 
-        // Fetch your API_KEY 
-        const API_KEY = "AIzaSyAXh3IXSHSPcFTklnwwmPkwfkTq4F00Su8";
+        const API_KEY = CONFIG.API.GOOGLE_AI_KEY;
 
-        // Validate API key
         if (!API_KEY || API_KEY.length < 20) {
             console.error('Invalid API key');
             document.getElementById('answerDisplay').innerHTML = '<p style="color: #ff6b6b;">API key is missing or invalid. Please contact the administrator.</p>';
         }
 
-        // Access your API key (see "Set up your API key" above)
         const genAI = new GoogleGenerativeAI(API_KEY);
 
         async function run() {
@@ -139,13 +137,12 @@
             const answerDisplay = document.getElementById('answerDisplay');
             const sendButton = document.getElementById('sendButton');
 
-            // Check if elements exist
+
             if (!questionInput || !answerDisplay || !sendButton) {
                 console.error('Required DOM elements not found');
                 return;
             }
 
-            // For text-only input, use the gemini-1.5-flash model
             let model;
             try {
                 model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });

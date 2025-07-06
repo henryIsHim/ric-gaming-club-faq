@@ -51,6 +51,3 @@ ric-gaming-club-faq/
 ## Credits
 - Developed by RIC Gaming Club
 - Icons and images from club resources
-
----
-For any issues or suggestions, please contact the club president via the links in the site footer.
