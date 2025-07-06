@@ -1,238 +1,307 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ Lists</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../assets/styles/navbar.css" />
+    <link rel="stylesheet" href="../../assets/styles/faq.css" />
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FAQ Lists</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../../assets/styles/global.css">
-  <link rel="stylesheet" href="../../assets/styles/navbar.css">
-  <link rel="stylesheet" href="../../assets/styles/faq.css">
-</head>
-
-<body>
-
-  <nav class="navbar">
-    <div class="navbar-container">
-      <a href="../home/index.html" class="navbar-brand">
-        <img src="../../assets/images/logos/RSU_Logo-removebg-preview.png" alt="RIC Logo" class="navbar-logo">
-        <span class="navbar-title">RIC Gaming Club</span>
-      </a>
-
-      <div class="navbar-center">
-        <ul class="navbar-nav">
-          <li class="navbar-item">
-            <a href="../home/index.html" class="navbar-link">Home</a>
-          </li>
-          <li class="navbar-item">
-            <a href="../ask-question/index.html" class="navbar-link">Ask A Question</a>
-          </li>
-          <li class="navbar-item">
-            <a href="../faq/index.html" class="navbar-link active">FAQ</a>
-          </li>
-          <li class="navbar-item">
-            <a href="../feedback/index.html" class="navbar-link">Feedback</a>
-          </li>
-        </ul>
-
-        <a href="../ask-question/index.html" class="navbar-cta-button">
-          💬 Start Chat
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="../home/index.html" class="navbar-brand">
+          <img
+            src="../../assets/images/logos/RSU_Logo-removebg-preview.png"
+            alt="RIC Logo"
+            class="navbar-logo"
+          />
+          <span class="navbar-title">RIC Gaming Club</span>
         </a>
-      </div>
 
-      <button class="navbar-toggle" id="navbar-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </nav>
+        <div class="navbar-center">
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a href="../home/index.html" class="navbar-link">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="../ask-question/index.html" class="navbar-link"
+                >Ask A Question</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="../faq/index.html" class="navbar-link active">FAQ</a>
+            </li>
+            <li class="navbar-item">
+              <a href="../feedback/index.html" class="navbar-link">Feedback</a>
+            </li>
+          </ul>
 
-  <!-- FAQ Header -->
-  <div class="faq-header">
-    <h1>How can we assist you? 🎮</h1>
-    <p class="subtitle">
-      Everything you want to know about our gaming club. Can't find an answer? 
-      <a href="../ask-question/index.html">Chat with our AI assistant!</a>
-    </p>
-  </div>
-
-  <!-- FAQ Container -->
-  <div class="faq-container">
-    
-    <!-- General Information Category -->
-    <div class="faq-category">
-      <h2 class="faq-category-title">📋 General Information</h2>
-      
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>What is the objective of the gaming club?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>The objective of the gaming club is to provide a place to share your gaming hobbies comfortably with each other, and also we aim to compete in esports tournaments if possible.</p>
+          <a href="../ask-question/index.html" class="navbar-cta-button">
+            💬 Start Chat
+          </a>
         </div>
-      </div>
 
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>What are the requirements to join the club?</span>
-          <span class="faq-icon">▼</span>
+        <button class="navbar-toggle" id="navbar-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
-        <div class="faq-answer">
-          <p>There are pretty much no requirements needed to join our club. If you are interested in playing games and want to share your interests with us, then you are welcome to join.</p>
-        </div>
       </div>
+    </nav>
 
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>How can I join the club?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>You can join the club by contacting our club president or any other members that you know. You can contact the club president via the social media links provided in the feedback page.</p>
-        </div>
-      </div>
+    <!-- FAQ Header -->
+    <div class="faq-header">
+      <h1>Frequently asked questions</h1>
+      <p class="subtitle">
+        These are the most commonly asked questions about RIC Gaming Club. Can't
+        find what you're looking for?
+        <a href="../ask-question/index.html">Chat to our friendly team!</a>
+      </p>
     </div>
 
-    <!-- Members & Leadership Category -->
-    <div class="faq-category">
-      <h2 class="faq-category-title">👥 Members & Leadership</h2>
-      
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Who are the members?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>Our members are Thukha Minthwin, Htin Lynn Kyaw, Hein Thuya Win, TunBhone PyaeMoe, Phyo Thwe Thwe Kyaw, Thant Wai Yan Linn, and Enes Talha Ciftci.</p>
+    <!-- Category Filter Buttons -->
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="general">General</button>
+      <button class="filter-btn" data-category="members">Members</button>
+      <button class="filter-btn" data-category="activities">Activities</button>
+      <button class="filter-btn" data-category="games">Games</button>
+    </div>
+
+    <!-- FAQ Container -->
+    <div class="faq-container">
+      <!-- General Information Category -->
+      <div class="faq-category" data-category="general">
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">😊</div>
+            <span>What is the objective of the gaming club?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              The objective of the gaming club is to provide a place to share
+              your gaming hobbies comfortably with each other, and also we aim
+              to compete in esports tournaments if possible.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">📋</div>
+            <span>What are the requirements to join the club?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              There are pretty much no requirements needed to join our club. If
+              you are interested in playing games and want to share your
+              interests with us, then you are welcome to join.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">🤝</div>
+            <span>How can I join the club?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You can join the club by contacting our club president or any
+              other members that you know. You can contact the club president
+              via the social media links provided in the feedback page.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Who is the club president and vice president?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>Our club's president is Thukha Minthwin from ICT(65) and vice president is TunBhone PyaeMoe from ICT(65).</p>
+      <!-- Members & Leadership Category -->
+      <div class="faq-category" data-category="members">
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">👥</div>
+            <span>Who are the members?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our members are Thukha Minthwin, Htin Lynn Kyaw, Hein Thuya Win,
+              TunBhone PyaeMoe, Phyo Thwe Thwe Kyaw, Thant Wai Yan Linn, and
+              Enes Talha Ciftci.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">👑</div>
+            <span>Who is the club president and vice president?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our club's president is Thukha Minthwin from ICT(65) and vice
+              president is TunBhone PyaeMoe from ICT(65).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activities & Schedule Category -->
+      <div class="faq-category" data-category="activities">
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">🎯</div>
+            <span>What are the club activities?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              As our name suggests, our club's main activity is to just play
+              games and have fun with each other. If we think someone is skilled
+              enough, then there can be competition activities.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">📅</div>
+            <span>When do you meet?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our club's meeting time is every Friday evening and it is not
+              mandatory. We will meet up to discuss our interests and discuss
+              the projects that we intend to do with the club in the future.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">📍</div>
+            <span>Where do you meet?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our club's main place is at building 11's fifth floor. There you
+              can meet our members hanging around.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Games & Equipment Category -->
+      <div class="faq-category" data-category="games">
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">🎮</div>
+            <span>What games do you play?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              We play League of Legends: Wild Rift as our main mobile game.
+              Valorant and FIFA football game as our main PC games.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <div class="faq-icon">💻</div>
+            <span>Do I need to bring my own devices?</span>
+            <div class="faq-arrow">↓</div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You need to bring smartphones to engage in mobile game activities,
+              but for PC games there are some available computers provided by
+              the school.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Activities & Schedule Category -->
-    <div class="faq-category">
-      <h2 class="faq-category-title">🎯 Activities & Schedule</h2>
-      
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>What are the club activities?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>As our name suggests, our club's main activity is to just play games and have fun with each other. If we think someone is skilled enough, then there can be competition activities.</p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>When do you meet?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>Our club's meeting time is every Friday evening and it is not mandatory. We will meet up to discuss our interests and discuss the projects that we intend to do with the club in the future.</p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Where do you meet?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>Our club's main place is at building 11's fifth floor. There you can meet our members hanging around.</p>
-        </div>
-      </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-text">@Copyright. All rights reserved.</div>
     </div>
 
-    <!-- Games & Equipment Category -->
-    <div class="faq-category">
-      <h2 class="faq-category-title">🎮 Games & Equipment</h2>
-      
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>What games do you play?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>We play League of Legends: Wild Rift as our main mobile game. Valorant and FIFA football game as our main PC games.</p>
-        </div>
-      </div>
+    <script>
+      // Modern FAQ accordion functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const faqQuestions = document.querySelectorAll(".faq-question");
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const faqCategories = document.querySelectorAll(".faq-category");
 
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Do I need to bring my own devices?</span>
-          <span class="faq-icon">▼</span>
-        </button>
-        <div class="faq-answer">
-          <p>You need to bring smartphones to engage in mobile game activities, but for PC games there are some available computers provided by the school.</p>
-        </div>
-      </div>
-    </div>
+        // FAQ accordion functionality
+        faqQuestions.forEach((question) => {
+          question.addEventListener("click", function () {
+            const faqItem = this.parentElement;
+            const isActive = faqItem.classList.contains("active");
 
-  </div>
+            // Close all other FAQ items
+            document.querySelectorAll(".faq-item").forEach((item) => {
+              item.classList.remove("active");
+            });
 
-  <!-- Footer -->
-  <div class="footer">
-    <div class="foterImg">
-      <div>
-        <a href="https://www.facebook.com/profile.php?id=100014915112605&mibextid=LQQJ4d">
-          <img src="../../assets/images/social/facebook.png" alt="facebook">
-        </a>
-      </div>
-      <div>
-        <a href="https://line.me/ti/p/aq6ANcv3au">
-          <img src="../../assets/images/social/line.png" alt="line">
-        </a>
-      </div>
-      <div>
-        <a href="mailto:np.thukhaminthwin@gmail.com" alt="Gmail">
-          <img src="../../assets/images/social/email.png" alt="email">
-        </a>
-      </div>
-    </div>
-    <div class="footerword"><b>@Copyright. All rights reserved.</b></div>
-  </div>
-
-  <script>
-    // Modern FAQ accordion functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      const faqQuestions = document.querySelectorAll('.faq-question');
-      
-      faqQuestions.forEach(question => {
-        question.addEventListener('click', function() {
-          const faqItem = this.parentElement;
-          const isActive = faqItem.classList.contains('active');
-          
-          // Close all other FAQ items
-          document.querySelectorAll('.faq-item').forEach(item => {
-            item.classList.remove('active');
+            // Toggle current item
+            if (!isActive) {
+              faqItem.classList.add("active");
+            }
           });
-          
-          // Toggle current item
-          if (!isActive) {
-            faqItem.classList.add('active');
-          }
         });
+
+        // Filter functionality
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const category = this.dataset.category;
+
+            // Update active button
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            this.classList.add("active");
+
+            // Show/hide categories
+            faqCategories.forEach((cat) => {
+              if (cat.dataset.category === category) {
+                cat.classList.add("active");
+              } else {
+                cat.classList.remove("active");
+              }
+            });
+
+            // Close all FAQ items when switching categories
+            document.querySelectorAll(".faq-item").forEach((item) => {
+              item.classList.remove("active");
+            });
+          });
+        });
+
+        // Initialize with General category active
+        const generalCategory = document.querySelector(
+          '.faq-category[data-category="general"]'
+        );
+        if (generalCategory) {
+          generalCategory.classList.add("active");
+        }
       });
-    });
-  </script>
+    </script>
 
-  <script src="../../assets/scripts/navbar.js"></script>
-
-</body>
+    <script src="../../assets/scripts/navbar.js"></script>
+  </body>
 </html>

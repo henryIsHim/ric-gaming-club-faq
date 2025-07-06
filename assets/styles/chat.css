@@ -1,3 +1,4 @@
+
 /* Modern Chat Interface Styles for RIC Gaming Club */
 
 * {
@@ -18,9 +19,9 @@ body {
 /* Chat Welcome Section */
 .chat-welcome {
     text-align: center;
-    padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+    padding: var(--spacing-xxl) var(--spacing-md) var(--spacing-md);
     max-width: 800px;
-    margin: 0 auto;
+    margin: var(--spacing-xxl) auto 0;
 }
 
 .chat-welcome h1 {
@@ -308,26 +309,6 @@ body {
     }
 }
 
-/* Footer */
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 18px 0 8px 0;
-    background: transparent;
-    border-top: 1px solid rgba(255, 255, 255, 0.18);
-    margin-top: 48px;
-}
-
-.foterImg {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.footerword {
-    color: white;
-}
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
@@ -390,4 +371,5 @@ body {
         width: 40px;
         height: 40px;
     }
+
 }
